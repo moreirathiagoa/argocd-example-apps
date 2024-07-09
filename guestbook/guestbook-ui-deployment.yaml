@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+      - image: 073521391622.dkr.ecr.us-east-1.amazonaws.com/cross/paas/cops-test-app:v2.7.2-webapp
         name: guestbook-ui
         ports:
         - containerPort: 80
