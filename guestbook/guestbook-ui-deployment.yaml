@@ -14,8 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: nginx:latest
+      - image: httpd:latest #nginx:latest
         name: guestbook-ui
         ports:
         - containerPort: 80
-        # 
